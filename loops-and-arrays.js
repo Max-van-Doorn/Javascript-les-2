@@ -5,6 +5,10 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names)
+for (let i = 0; i < names.length; i++){
+    console.log(names[i] + "je")
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -22,6 +26,16 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+console.log(numbers)
+
+for (let i= 0; i < numbers.length; i++){
+    if (numbers[i] % 2 === 0){
+        console.log(numbers[i] = numbers[i] *2 + " is even")
+    }
+    else{
+        console.log(numbers[i] = numbers[i] *3 + " is oneven")
+    }
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
